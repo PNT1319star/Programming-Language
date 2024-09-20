@@ -1,0 +1,3 @@
+D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/Image_Rotation.dir
+D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
