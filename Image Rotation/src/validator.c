@@ -29,20 +29,17 @@ struct input_data process_input(char **argv) {
     }
 
     char *endptr;
-    long angle_val = strtol(argv[3], &endptr, 10);
-    if (*endptr != '\0' || angle_val > INT_MAX || angle_val < INT_MIN) {
+    double angle_val = strtod(argv[3], &endptr);
+    if (*endptr != '\0' || angle_val > 1e9 || angle_val < -1e9) {
         return (struct input_data){.stt = PARSING_ERROR};
     }
 
-    int32_t rotation_angle = -((int32_t) angle_val);
+    double rotation_angle = -((double) angle_val);
     if (rotation_angle < 0) rotation_angle += 360;
-    if (rotation_angle != 0 && rotation_angle != 90 && rotation_angle != 180 && rotation_angle != 270) {
-        return (struct input_data){.stt = ANGLE_ERROR};
-    }
 
         return (struct input_data){
             .stt = VALID,
-            .angle = rotation_angle % 360,
+            .angle = (uint64_t) rotation_angle % 360 + (rotation_angle - (uint64_t) rotation_angle),
             .in = f_in,
             .out = f_out,
         };

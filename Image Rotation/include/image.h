@@ -13,9 +13,18 @@ struct __attribute__((packed)) color_pixel {
 
 struct image {
     uint64_t width, height;
-    struct color_pixel* pixels;
+    struct color_pixel *pixels;
+};
+
+struct image_2d {
+    uint64_t w, h;
+    struct color_pixel** pixels_2d;
 };
 
 struct image create_image(uint64_t w, uint64_t h);
-void delete_image(struct image* img);
+struct image_2d convert_to_image_2d(struct image* img);
+struct image convert_to_image_1d(struct image_2d* img);
+
+void delete_image(struct image *img);
+void delete_image_2d(struct image_2d *img);
 #endif //IMAGE_H

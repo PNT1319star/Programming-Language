@@ -1,30 +1,14 @@
 # ninja log v6
 1	78	7480180028534034	CMakeFiles/Image_Rotation.dir/main.c.obj	7311e6ee3adfe227
-79	200	7480180029304465	Image_Rotation.exe	b569f1221c95435a
-42	108	7483033404281615	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
-149	521	7483033405347418	CMakeFiles/Image_Rotation.dir/src/validator.c.obj	aa27b01773de65f3
-109	522	7483033404953572	CMakeFiles/Image_Rotation.dir/src/main.c.obj	63f847d465f09d37
-145	523	7483033405309626	CMakeFiles/Image_Rotation.dir/src/file.c.obj	b079574d2b12e291
-153	523	7483033405387926	CMakeFiles/Image_Rotation.dir/src/rotator.c.obj	47a15c18c471107e
-140	526	7483033405264475	CMakeFiles/Image_Rotation.dir/src/image.c.obj	775cf7e648c5bf16
-12	30	7483034077424325	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
-7	30	7483034090623474	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
-9	28	7483035150493653	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
-7	25	7483041300534716	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
-27	97	7483041300741284	CMakeFiles/Image_Rotation.dir/src/main.c.obj	63f847d465f09d37
-30	104	7483041300771851	CMakeFiles/Image_Rotation.dir/src/file.c.obj	b079574d2b12e291
-104	205	7483041301515382	Image_Rotation.exe	65681ab92d50e84e
-12	31	7483052794319403	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
-1	21	7483052840633276	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
-23	87	7483052840863390	CMakeFiles/Image_Rotation.dir/src/main.c.obj	63f847d465f09d37
-88	179	7483052841501555	Image_Rotation.exe	65681ab92d50e84e
-2	24	7483053126202180	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
-27	96	7483053126448114	CMakeFiles/Image_Rotation.dir/src/main.c.obj	63f847d465f09d37
-97	182	7483053127148799	Image_Rotation.exe	65681ab92d50e84e
-1	21	7483053328023061	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
-24	85	7483053328249155	CMakeFiles/Image_Rotation.dir/src/main.c.obj	63f847d465f09d37
-85	162	7483053328860522	Image_Rotation.exe	65681ab92d50e84e
-1	22	7483053625117395	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
-24	90	7483053625348428	CMakeFiles/Image_Rotation.dir/src/main.c.obj	63f847d465f09d37
 90	183	7483053625997727	Image_Rotation.exe	65681ab92d50e84e
 1	18	7483053663586942	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
+30	104	7483041300771851	CMakeFiles/Image_Rotation.dir/src/file.c.obj	b079574d2b12e291
+149	521	7483033405347418	CMakeFiles/Image_Rotation.dir/src/validator.c.obj	aa27b01773de65f3
+24	90	7483053625348428	CMakeFiles/Image_Rotation.dir/src/main.c.obj	63f847d465f09d37
+153	523	7483033405387926	CMakeFiles/Image_Rotation.dir/src/rotator.c.obj	47a15c18c471107e
+140	526	7483033405264475	CMakeFiles/Image_Rotation.dir/src/image.c.obj	775cf7e648c5bf16
+62	173	7495737105624824	D:/Năm 2/Semester 3/Image Rotation/cmake-build-debug/CMakeFiles/cmake.verify_globs	9dc0e4cdeff491f9
+192	753	7495737106926846	CMakeFiles/Image_Rotation.dir/src/file.c.obj	b079574d2b12e291
+177	754	7495737106767682	CMakeFiles/Image_Rotation.dir/src/main.c.obj	63f847d465f09d37
+185	754	7495737106851329	CMakeFiles/Image_Rotation.dir/src/image.c.obj	775cf7e648c5bf16
+199	756	7495737106997005	CMakeFiles/Image_Rotation.dir/src/validator.c.obj	aa27b01773de65f3

@@ -15,5 +15,7 @@ add_executable(Image_Rotation src/main.c
         include/validator.h
         src/validator.c
         include/rotator.h
-        src/rotator.c)
+        src/rotator.c
+        include/matrix_converter.h
+)
 target_include_directories(Image_Rotation PRIVATE src include)

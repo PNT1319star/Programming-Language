@@ -8,6 +8,7 @@ set(OLD_GLOB
   "D:/Năm 2/Semester 3/Image Rotation/include/bitmap.h"
   "D:/Năm 2/Semester 3/Image Rotation/include/file.h"
   "D:/Năm 2/Semester 3/Image Rotation/include/image.h"
+  "D:/Năm 2/Semester 3/Image Rotation/include/matrix_converter.h"
   "D:/Năm 2/Semester 3/Image Rotation/include/rotator.h"
   "D:/Năm 2/Semester 3/Image Rotation/include/validator.h"
   )

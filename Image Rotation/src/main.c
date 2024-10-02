@@ -7,6 +7,7 @@
 
 enum input_stt read(FILE* in, struct image* img) {
     enum in_stt rs = convert_bmp_to_image(in, img);
+
     if (rs != IN_SUCCESS) {
         enum input_stt stt_to_msg[] = {
             VALID, SIGNATURE_ERROR, PIXEL_INVALID_ERROR, HEADER_ERROR, BIT_UNSUPPORTED_ERROR
@@ -38,13 +39,17 @@ int main(int argc, char** argv) {
     enum input_stt rs = read(input.in, &image);
     if (rs != IN_SUCCESS) return rs;
 
-    struct image new_img = rotate_image_by_angle(&image, input.angle);
+    struct image_2d image_2d = convert_to_image_2d(&image);
+    struct image_2d new_img = rotate_image_by_angle(&image_2d, input.angle);
+    struct image result = convert_to_image_1d(&new_img);
 
-    enum input_stt ws = write(input.out, &new_img);
+    enum input_stt ws = write(input.out, &result);
     if(ws == OUT_SUCCESS)   printf("Success\n");
     printf("Failed");
 
-    delete_image(&new_img);
+    delete_image_2d(&image_2d);
+    delete_image_2d(&new_img);
+    delete_image(&result);
     return ws;
 
 }
